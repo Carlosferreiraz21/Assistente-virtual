@@ -4,87 +4,52 @@
 
 ---
 
-## 🌍 Contextualização
+## 🌍 Sobre o Projeto
 
-Nosso município, com cerca de 10 a 15 mil habitantes e forte vocação para o turismo, ainda enfrenta grandes desafios na digitalização de seus negócios locais. Muitos empreendedores utilizam papel e caneta para controlar vendas, sem gestão clara de lucros, despesas ou fluxo de caixa. Isso impacta diretamente a sustentabilidade dos negócios e o crescimento da economia local.
+O projeto visa desenvolver um **assistente virtual inteligente** para auxiliar pequenos empreendedores locais na gestão dos seus negócios. A proposta é facilitar o processo de digitalização, organização financeira e planejamento estratégico para micro e pequenos negócios do município.
 
-Além disso, há escassez de mão de obra qualificada em tecnologia e barreiras culturais que dificultam a adoção de soluções digitais. Pequenos empreendedores — como MEIs e autônomos — frequentemente enfrentam dificuldades por falta de orientação em gestão e finanças.
-
----
-
-## 🎯 Objetivo do Projeto
-
-Desenvolver um **assistente virtual inteligente**, que funcione como um consultor de bolso para pequenos empreendedores locais. A proposta é automatizar a gestão financeira básica dos negócios, oferecendo suporte através de:
-
-- 📊 Relatórios semanais com dados de vendas, lucros e despesas;
-- 📈 Análises sobre produtos com melhor desempenho;
-- 💡 Sugestões personalizadas para otimizar os lucros;
-- 🤖 Atendimento com respostas a dúvidas pontuais sobre gestão.
+A ideia surgiu a partir de problemas reais observados na cidade, como:
+- Falta de controle financeiro e de gestão;
+- Baixa digitalização dos processos comerciais;
+- Barreiras culturais e técnicas à adoção de tecnologia.
 
 ---
 
-## 👥 Público-Alvo
+## 🧩 Estrutura da Documentação
 
-- Microempreendedores individuais (MEIs)
-- Comércios locais (lanchonetes, lojas de roupas, mercados)
-- Pessoas iniciando um pequeno negócio informal
-- Negócios em áreas mais afastadas e comunidades insulares
+| Seção | Descrição |
+|-------|----------|
+| [📌 Introdução e Contextualização](docs/01_contexto.md) | Panorama da cidade e problemas identificados |
+| [🎯 Objetivo do Projeto](docs/02_objetivos.md) | Objetivo geral e objetivos específicos |
+| [📦 Escopo do Projeto](docs/03_escopo.md) | O que está dentro e fora da proposta |
+| [⚙️ Requisitos do Sistema](docs/04_requisitos.md) | Requisitos funcionais e não funcionais |
+| [🧠 Metodologia e Tecnologias](docs/05_metodologia.md) | Abordagens e ferramentas usadas |
+| [🗂️ Canvas do Projeto](docs/06_canvas.md) | Estrutura visual do modelo de negócio |
+| [🚧 Protótipo / MVP](docs/07_prototipo.md) | Interface, prints e status do desenvolvimento |
 
 ---
 
-## 🧰 Tecnologias utilizadas
+## 💻 Tecnologias Utilizadas
 
 - Python
-- Inteligência Artificial (ex: integração com Vertex AI)
+- Streamlit (interface web)
 - Google Cloud Vision API
-- Streamlit (para prototipação da interface)
-- SQLite (para armazenamento local simples)
-
----
-
-## 🔄 Metodologia
-
-Utilizamos uma abordagem baseada em:
-
-- **Design Thinking**: para entender as reais dores dos empreendedores locais;
-- **Lean Startup**: para validar uma solução funcional (MVP) com testes reais;
-- **Scrum / Kanban**: para organizar o desenvolvimento em etapas curtas e iterativas.
-
----
-
-## 🚧 Status do Projeto
-
-- 📅 **Fase atual**: Documentação e construção do MVP
-- ✅ Etapa de pesquisa e definição de requisitos concluída
-- 🔄 MVP em desenvolvimento
-- 🚀 Protótipo previsto para apresentação no Hackathon
-
----
-
-## 📸 Screenshots (em breve)
-
-> Aqui você pode inserir imagens ou GIFs do sistema quando o MVP estiver pronto!
-
----
-
-## 📄 Licença
-
-Este projeto foi desenvolvido exclusivamente para fins educacionais, como parte do Hackathon do curso de TIC. O código e as ideias podem ser utilizadas livremente com os devidos créditos.
-
----
-
-## 🤝 Colaboradores
-
-- Carlos Henrique Ferreira – Documentação, ideia e desenvolvimento  
-*(adicione os nomes da equipe aqui se tiver mais pessoas)*
+- Vertex AI (inteligência artificial)
+- SQLite
 
 ---
 
 ## 📬 Contato
 
-Se quiser saber mais sobre o projeto ou colaborar de alguma forma, entre em contato:
-
-- [LinkedIn de Carlos](https://www.linkedin.com/in/carlos-henrique-ferreira/)  
-- Email: **[seu.email@email.com]** *(altere aqui)*
+- Carlos Henrique Ferreira  
+- [LinkedIn](https://www.linkedin.com/in/carlos-henrique-ferreira/)  
+- Email: **seu.email@email.com**
 
 ---
+
+## 📄 Licença
+
+Projeto desenvolvido para fins educacionais, com código aberto para estudos, contribuições e reaproveitamento com créditos.
+
+---
+
