@@ -31,14 +31,17 @@ A ideia surgiu a partir de problemas reais observados na cidade, como:
 
 ## 💻 Tecnologias Utilizadas
 
-- Python
-- Flask
-- SQLite
-- HTML, CSS, BOOTSTRAP
-- Hugging Face API
-- PythonAnywhere
-- Cursor IA
-- Git e GitHub
+| Categoria | Tecnologia | Finalidade |
+|:---|:---|:---|
+| Linguagem de Programação | Python | Desenvolvimento do backend e integração com IA |
+| Framework Web | Flask | Criação do servidor, rotas e renderização das páginas HTML |
+| Frontend | HTML5, CSS3, Bootstrap 5 | Interface responsiva, estilização e usabilidade |
+| Banco de Dados | SQLite | Armazenamento local de entradas, saídas e informações financeiras |
+| Integração de IA | Hugging Face API | Geração de respostas automáticas para o Assistente Virtual |
+| Hospedagem | PythonAnywhere | Deploy da aplicação Flask com banco de dados SQLite |
+| Versionamento de Código | Git + GitHub | Controle de versões e colaboração em equipe |
+| Gerador de Código Assistido | Cursor.ai | Agilizar a geração de código backend, frontend e integração com IA |
+
 
 ---
 
