@@ -32,10 +32,13 @@ A ideia surgiu a partir de problemas reais observados na cidade, como:
 ## 💻 Tecnologias Utilizadas
 
 - Python
-- Streamlit (interface web)
-- Google Cloud Vision API
-- Vertex AI (inteligência artificial)
+- Flask
 - SQLite
+- HTML, CSS, BOOTSTRAP
+- Hugging Face API
+- PythonAnywhere
+- Cursor IA
+- Git e GitHub
 
 ---
 
