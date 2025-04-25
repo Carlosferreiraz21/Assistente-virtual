@@ -16,7 +16,7 @@ A ideia surgiu a partir de problemas reais observados na cidade, como:
 ---
 
 ## 🧩 Estrutura e Documentação
-
+![Diagrama UML do MVP](./docs/UML_Projeto.jpg)
 | Seção | Descrição |
 |-------|----------|
 | [📌 Introdução e Contextualização](docs/01_contexto.md) | Panorama da cidade e problemas identificados |
