@@ -39,14 +39,6 @@ A ideia surgiu a partir de problemas reais observados na cidade, como:
 
 ---
 
-## 📬 Contato
-
-- Carlos Henrique Ferreira  
-- [LinkedIn](https://www.linkedin.com/in/carlos-henrique-ferreira/)  
-- Email: **seu.email@email.com**
-
----
-
 ## 📄 Licença
 
 Projeto desenvolvido para fins educacionais, com código aberto para estudos, contribuições e reaproveitamento com créditos.
