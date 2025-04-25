@@ -15,7 +15,7 @@ A ideia surgiu a partir de problemas reais observados na cidade, como:
 
 ---
 
-## 🧩 Estrutura da Documentação
+## 🧩 Estrutura e Documentação
 
 | Seção | Descrição |
 |-------|----------|
