@@ -4,10 +4,6 @@
 
 > Os requisitos funcionais representam o que o sistema deve realizar em termos de funcionalidades práticas.
 
-### 🛒 Gestão de Produtos e Serviços
-- O sistema deve permitir cadastrar, editar e remover produtos ou serviços.
-- O sistema deve permitir registrar preços, categorias e descrições.
-
 ### 💰 Controle Financeiro
 - O sistema deve permitir registrar vendas, entradas e saídas financeiras.
 - O sistema deve calcular automaticamente o lucro bruto, líquido e final.
