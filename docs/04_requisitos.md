@@ -20,7 +20,7 @@
 
 ### 👥 Usuários
 - O sistema deve permitir o acesso por meio de autenticação simples (login/senha).
-- O sistema deve permitir o uso por múltiplos usuários de forma individualizada.
+- O sistema deve permitir o cadastro de um estabelecimento por usuário cadastrado.
 
 ---
 
