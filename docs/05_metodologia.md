@@ -46,10 +46,6 @@ Utilizamos uma abordagem Kanban com colunas como:
 ### 📦 Banco de Dados
 - **SQLite**: solução leve e local para armazenamento de dados financeiros e registros durante o MVP.
 
-### 📡 Serviços de Nuvem
-- **Google Cloud Platform**:
-  - **Cloud Vision API** (opcional): possibilidade de leitura de notas fiscais e documentos digitalizados para entrada automática de dados no futuro.
-
 ---
 
 ## 💡 Justificativa das Escolhas
