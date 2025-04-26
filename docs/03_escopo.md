@@ -4,7 +4,6 @@
 
 O projeto do assistente virtual inteligente contempla as seguintes funcionalidades e entregas:
 
-- Cadastro e gerenciamento de produtos e serviços oferecidos pelo negócio.
 - Registro de vendas, despesas e lucros em um sistema simples.
 - Geração automática de relatórios semanais com:
   - Lucro bruto, líquido e final.
