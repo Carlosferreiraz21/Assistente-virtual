@@ -39,6 +39,7 @@
 ## 🔑 Atividades-Chave
 
 - Desenvolvimento do MVP funcional
+- Estrutura completa do projeto antes de iniciar o desenvolvimento
 - Mapeamento de necessidades reais com comerciantes locais
 - Coleta de dados financeiros para análise
 - Construção da lógica de sugestões automatizadas
@@ -48,9 +49,8 @@
 
 ## 🧠 Recursos Principais
 
-- Conhecimento técnico da equipe (programação, IA, design)
-- Ferramentas gratuitas de desenvolvimento (Python, Streamlit, SQLite)
-- Plataformas de nuvem com plano gratuito (Google Cloud)
+- Conhecimento técnico da equipe (programação, IA, design, versionamento)
+- Ferramentas gratuitas de desenvolvimento (Python, Flask, PythonAnywhere, SQLite)
 - Contato direto com comerciantes locais para validação
 
 ---
