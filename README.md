@@ -1,6 +1,6 @@
 # Assistente Virtual para Pequenos Negócios – Talento TECH 2025
 
-> Projeto desenvolvido durante o Hackathon do curso técnico em Tecnologia da Informação e Comunicação (TIC), com foco em **Transformação Digital, Inovação e Empreendedorismo**.
+> Projeto em desenvolvimento durante o Hackathon do curso técnico em Tecnologia da Informação e Comunicação (TIC), com foco em **Transformação Digital, Inovação e Empreendedorismo**.
 
 ---
 
