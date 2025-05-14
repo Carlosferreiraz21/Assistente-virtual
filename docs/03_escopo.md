@@ -4,7 +4,8 @@
 
 O projeto do assistente virtual inteligente contempla as seguintes funcionalidades e entregas:
 
-- Registro de vendas, despesas e lucros em um sistema simples.
+- Registro de vendas, despesas, lucros, e fiados em um sistema simples.
+- Notificações e alertas referente vendas em aberto(fiado)
 - Geração automática de relatórios semanais com:
   - Lucro bruto, líquido e final.
   - Análise de desempenho por produto.
@@ -26,7 +27,7 @@ Para manter o projeto viável dentro do tempo e dos recursos disponíveis, os se
 - Aplicativo mobile nativo (Android/iOS).
 - Implementação de um sistema de IA avançado com treinamento de grandes modelos.
 - Suporte multilíngue.
-- Armazenamento em nuvem com sincronização de dados entre dispositivos.
+- Integração com app, para uma maior visualização e controle desses dados.
 - Infraestrutura de escalabilidade para grande volume de acessos.
 - Sistema completo de fidelidade, cupons ou automação de marketing.
 
