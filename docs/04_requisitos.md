@@ -5,9 +5,10 @@
 > Os requisitos funcionais representam o que o sistema deve realizar em termos de funcionalidades práticas.
 
 ### 💰 Controle Financeiro
-- O sistema deve permitir registrar vendas, entradas e saídas financeiras.
+- O sistema deve permitir registrar vendas, entradas,saídas, e fiado.
 - O sistema deve calcular automaticamente o lucro bruto, líquido e final.
-- O sistema deve gerar relatórios semanais com desempenho financeiro.
+- O sistema deve emitir mensagens de alerta em relação aos clientes com vendas em aberto(fiado)
+- O sistema deve gerar relatórios com desempenho financeiro.
 
 ### 📈 Análises e Sugestões
 - O sistema deve identificar produtos ou serviços com maior rotatividade.
