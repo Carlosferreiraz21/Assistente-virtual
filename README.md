@@ -43,24 +43,24 @@ O usuário pode iniciar ações com mensagens como:
 
 A IA interpreta a intenção e apresenta **botões interativos** com as opções.
 
-### 📲 Menu de Ações (via Botões)
+###  Menu de Ações (via Botões)
 
-- **📥 Registrar Entrada**  
+- ** Registrar Entrada**  
   Valor + Categoria. Fica em modo registro até o usuário digitar "sair".
 
-- **📤 Registrar Saída**  
+- ** Registrar Saída**  
   Valor + Categoria. Também permanece no modo até o usuário sair.
 
-- **📈 Lucro Líquido**  
+- ** Lucro Líquido**  
   Entradas - Saídas do período.
 
-- **💵 Lucro Bruto e Total**  
+- ** Lucro Bruto e Total**  
   Mostra valores brutos e totais acumulados.
 
-- **💰 Saldo Atual**  
+- ** Saldo Atual**  
   Total de entradas - total de saídas.
 
-- **📊 Gerar Relatório**  
+- ** Gerar Relatório**  
   Resumo semanal: entradas, saídas, lucro, saldo e categorias.
 
 - **🤖 Dica Inteligente**  
@@ -84,32 +84,27 @@ A IA interpreta a intenção e apresenta **botões interativos** com as opções
 
 ## 🚀 Funcionalidades Inovadoras
 
-- **📅 Agendamento de cobranças fiado**  
+- ** Agendamento de cobranças fiado**  
   O bot envia lembrete no dia do vencimento.
 
-- **🔻 Alerta de prejuízo**  
+- ** Alerta de prejuízo**  
   Caso o saldo fique negativo ou a margem caia.
 
-- **🧠 IA com memória simples**  
+- ** IA com memória simples**  
   Usa últimos comandos para personalizar respostas.
 
-- **🏷️ Categorias customizáveis**  
+- ** Categorias customizáveis**  
   Ex: "Adicionar categoria: marketing"
 
-- **📉 Análise de tendência semanal**
+- ** Análise de tendência semanal**
 
-- **🕶️ Modo simulado**  
+- **🕶 Modo simulado**  
   Para testar sem salvar dados reais.
 
-- **📎 Exportação em CSV**
+- ** Exportação em CSV**
 
-- **🎯 Sistema de metas**  
+- ** Sistema de metas**  
   Defina meta de lucro ou saldo e receba avisos automáticos.
-
----
-
-## 🗂️ Estrutura do Projeto
-
 
 
 ## 📄 Licença
