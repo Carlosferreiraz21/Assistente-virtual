@@ -1,16 +1,28 @@
-# Chatbot Financeiro para Telegram
+# Assistente Virtual para Pequenos Negócios – Talento TECH 2025
 
-## 📝 Descrição
-Bot para Telegram desenvolvido em Python para gerenciamento de finanças pessoais. O bot permite registrar receitas e despesas, gerar relatórios financeiros e receber dicas personalizadas baseadas no comportamento financeiro do usuário.
+> Projeto em desenvolvimento durante o Hackathon do curso técnico em Tecnologia da Informação e Comunicação (TIC), com foco em **Transformação Digital, Inovação e Empreendedorismo**.
 
-## 🛠️ Tecnologias Utilizadas
-- Python 3.x
-- python-telegram-bot v20.7
-- SQLAlchemy (ORM para banco de dados)
-- PyTorch + Transformers (Processamento de Linguagem Natural)
-- Flask 3.0.0
-- Pandas e NumPy (Análise de dados)
-- SQLite (Banco de dados)
+---
+
+# Assistente Financeiro Inteligente via Telegram
+
+Um chatbot desenvolvido em Python para ajudar pequenos empreendedores na gestão financeira de seus negócios. Através de mensagens em linguagem natural e botões interativos no Telegram, o bot registra vendas, saídas, gera relatórios e até dá dicas inteligentes com o apoio de IA.
+
+## 💻 Tecnologias Utilizadas
+
+| Categoria | Tecnologia | Finalidade |
+|:---|:---|:---|
+| Linguagem de Programação | Python 3.x | Desenvolvimento do backend e integração com IA |
+| Framework Bot | python-telegram-bot v20.7 | Interface com a API do Telegram |
+| ORM | SQLAlchemy | Mapeamento objeto-relacional para banco de dados |
+| IA & NLP | PyTorch + Transformers | Processamento de linguagem natural e análise |
+| Framework Web | Flask 3.0.0 | Servidor web e endpoints da API |
+| Análise de Dados | Pandas e NumPy | Processamento e análise de dados financeiros |
+| Banco de Dados | SQLite | Armazenamento local de dados financeiros |
+| Integração de IA | Hugging Face API | Geração de respostas automáticas |
+| Hospedagem | PythonAnywhere | Deploy da aplicação |
+| Versionamento | Git + GitHub | Controle de versões e colaboração |
+| Assistente de Código | Cursor.ai | Agilização do desenvolvimento |
 
 ## 📁 Estrutura do Projeto
 ```
@@ -26,6 +38,42 @@ Chatbot-ia/
 └── finance.db           # Banco de dados SQLite
 ```
 
+## 🧠 Funcionalidades Principais
+
+### 🗣️ Interação Natural com IA
+O usuário pode iniciar ações com mensagens como:
+> "Quero registrar uma venda"  
+> "Como está meu lucro?"  
+> "Me dá uma dica?"
+
+A IA interpreta a intenção e apresenta **botões interativos** com as opções.
+
+### Menu de Ações (via Botões)
+
+- **📈 Registrar Entrada**  
+  Valor + Categoria. Fica em modo registro até o usuário digitar "sair".
+
+- **📉 Registrar Saída**  
+  Valor + Categoria. Também permanece no modo até o usuário sair.
+
+- **💰 Lucro Líquido**  
+  Entradas - Saídas do período.
+
+- **📊 Lucro Bruto**  
+  Mostra valores brutos acumulados.
+
+- **💵 Saldo Atual**  
+  Total de entradas - total de saídas.
+
+- **📑 Relatório**  
+  Resumo detalhado com entradas, saídas e totalizadores.
+
+- **💡 Dica Inteligente**  
+  A IA analisa a margem de lucro atual e sugere melhorias:
+  - < 10%: risco de prejuízo
+  - 10%–25%: margem aceitável
+  - > 25%: excelente desempenho
+
 ## ⚙️ Funcionalidades Implementadas
 
 ### 1. Gestão de Usuários
@@ -33,35 +81,35 @@ Chatbot-ia/
 - Armazenamento de dados básicos do usuário
 
 ### 2. Gestão Financeira
-- Registro de receitas
-- Registro de despesas
+- Registro de receitas e despesas
 - Categorização automática de transações
-- Cálculo de saldo atual
-- Cálculo de lucro bruto e líquido
+- Cálculo de saldo e lucros
+- Análise de margem de lucro
 
 ### 3. Relatórios
 - Relatório financeiro detalhado
-- Histórico das últimas 5 entradas
-- Histórico das últimas 5 saídas
+- Histórico das últimas transações
 - Totalizadores por período
+- Análise de desempenho
 
 ### 4. Interface
 - Menu interativo com botões
-- Comandos intuitivos
+- Comandos em linguagem natural
 - Respostas formatadas com emojis
-- Interface amigável e responsiva
+- Interface amigável e intuitiva
 
 ### 5. Inteligência Artificial
-- Processamento de linguagem natural para entender intenções
-- Sistema de dicas personalizadas baseado no comportamento financeiro
-- Categorização inteligente de transações
+- Processamento de linguagem natural
+- Sistema de dicas personalizadas
+- Análise de comportamento financeiro
+- Categorização inteligente
 
 ## 🚀 Como Executar
 
 1. Clone o repositório
 ```bash
-git clone [URL_DO_REPOSITORIO]
-cd Chatbot-ia
+git clone https://github.com/Carlosferreiraz21/Assistente-virtual.git
+cd Assistente-virtual
 ```
 
 2. Crie e ative um ambiente virtual
@@ -86,44 +134,38 @@ TELEGRAM_TOKEN=seu_token_aqui
 python bot.py
 ```
 
-## 📋 Comandos Disponíveis
-- `/start` - Inicia o bot e mostra o menu principal
-- `/help` - Mostra a ajuda e lista de comandos
-- `/receita VALOR DESCRIÇÃO` - Registra uma nova receita
-- `/despesa VALOR DESCRIÇÃO` - Registra uma nova despesa
+## 🔄 Status do Desenvolvimento
 
-## 🔄 Fluxo de Desenvolvimento
+### Fase 1: ✅ Estrutura Inicial
+- Estrutura de diretórios
+- Bot básico funcional
+- Sistema de NLP
 
-### Fase 1: Estrutura Inicial
-- ✅ Criação da estrutura de diretórios
-- ✅ Implementação do bot.py com funcionalidades básicas
-- ✅ Configuração do sistema de NLP
+### Fase 2: ✅ Banco de Dados
+- Tabelas SQLAlchemy
+- Funções CRUD
+- Integração bot-banco
 
-### Fase 2: Banco de Dados
-- ✅ Criação das tabelas com SQLAlchemy
-- ✅ Implementação de funções CRUD
-- ✅ Integração com o bot
-
-### Fase 3: Funcionalidades Avançadas
-- ✅ Sistema de relatórios
-- ✅ Dicas personalizadas
-- ✅ Interface interativa
-- ✅ Processamento de linguagem natural
+### Fase 3: ✅ Funcionalidades Avançadas
+- Sistema de relatórios
+- Dicas inteligentes
+- Interface interativa
+- NLP avançado
 
 ## 📈 Próximos Passos
-1. Implementar sistema de backup automático
-2. Adicionar gráficos nos relatórios
-3. Implementar metas financeiras
-4. Adicionar suporte a múltiplas moedas
-5. Implementar sistema de categorias personalizadas
+1. Backup automático
+2. Gráficos nos relatórios
+3. Metas financeiras
+4. Múltiplas moedas
+5. Categorias personalizadas
 
 ## 🔒 Segurança
-- Dados armazenados localmente em SQLite
-- Sem armazenamento de dados sensíveis
-- Processamento de linguagem natural local
+- Dados locais em SQLite
+- Sem dados sensíveis
+- NLP processado localmente
 
 ## 🤝 Contribuição
 Contribuições são bem-vindas! Por favor, leia as diretrizes de contribuição antes de submeter pull requests.
 
 ## 📄 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes. 
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
