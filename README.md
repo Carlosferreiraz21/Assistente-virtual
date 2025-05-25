@@ -104,36 +104,6 @@ A IA interpreta a intenção e apresenta **botões interativos** com as opções
 - Análise de comportamento financeiro
 - Categorização inteligente
 
-## 🚀 Como Executar
-
-1. Clone o repositório
-```bash
-git clone https://github.com/Carlosferreiraz21/Assistente-virtual.git
-cd Assistente-virtual
-```
-
-2. Crie e ative um ambiente virtual
-```bash
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
-```
-
-3. Instale as dependências
-```bash
-pip install -r requirements.txt
-```
-
-4. Configure o arquivo .env
-```
-TELEGRAM_TOKEN=seu_token_aqui
-```
-
-5. Execute o bot
-```bash
-python bot.py
-```
-
 ## 🔄 Status do Desenvolvimento
 
 ### Fase 1: ✅ Estrutura Inicial
