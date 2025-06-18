@@ -27,8 +27,8 @@ Um chatbot inteligente para gestão financeira pessoal desenvolvido em Python pa
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Python 3.8+**
-- **python-telegram-bot**: Interface com API do Telegram
+- **Python 3.10+**
+- **python-Telegram-bot**: Interface com API do Telegram
 - **Hugging Face Transformers**: Processamento de linguagem natural
 - **SQLite**: Banco de dados local
 - **APScheduler**: Sistema de notificações
